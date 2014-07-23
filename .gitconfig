@@ -5,6 +5,8 @@
         fl = log -u
         gr = grep -rin
         cm = commit -m
+        fa = fetch --all
+        cb = checkout -b
         r = reset
         r1 = reset HEAD^
         r2 = reset HEAD^^
@@ -16,4 +18,5 @@
         ss = stash save
         st = status
         gca = clean -f -d
-        prum = pull --rebase
+        prum = pull --rebase upstream master
+        pom = push origin master
